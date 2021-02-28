@@ -1,0 +1,39 @@
+{
+  "name": "digicoind-rpc",
+  "description": "Digicoin Client Library to connect to Digicoin Core via RPC",
+  "version": "0.0.4",
+  "author": {
+    "name": "Digicoin",
+    "email": "hello@getdigicoin.network",
+    "url": "https://getdigicoin.network"
+  },
+  "contributors": [],
+  "keywords": [
+    "digicoin",
+    "rpc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/digicoinofficial/digicoind-rpc.git"
+  },
+  "homepage": "https://github.com/digicoinofficial/digicoind-rpc",
+  "bugs": {
+    "url": "https://github.com/digicoinofficial/digicoind-rpc/issues"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test -R spec",
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^1.10.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
